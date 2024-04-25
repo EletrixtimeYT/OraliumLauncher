@@ -1,19 +1,19 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.3",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "OraliumLauncher",
+    "preductname": "OraliumLauncher",
+    "version": "1.0.5",
+    "description": "OraliumLauncher",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "Eletrix:Technologies",
+        "email": "eletrixtimeyt@gmail.com",
+        "url": "n1.recloud-hosting.me:1175"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://n1.recloud-hosting.me:1175",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
-        "build": "node build.js --obf=true --build=platform",
+        "build": "node build.js --obf=false --build=platform",
         "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
     },
     "license": "CCANC",
@@ -23,14 +23,14 @@
     },
     "dependencies": {
         "electron-updater": "^6.1.4",
-        "minecraft-java-core": "^3.9.1",
+        "minecraft-java-core": "^3.8.1",
         "node-bdd": "^2.0.3",
         "node-fetch": "^2.7.0",
         "xml-js": "^1.6.11"
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
-        "electron": "^29.1.6",
+        "electron": "^27.0.4",
         "electron-builder": "^24.6.4",
         "javascript-obfuscator": "^4.1.0",
         "jimp": "^0.22.10",
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/EletrixtimeYT/OraliumLauncher.git"
     }
 }
